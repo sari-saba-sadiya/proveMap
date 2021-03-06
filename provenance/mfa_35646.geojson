@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1984","buyer": "Michael Rosenfeld Gallery New York February","address": "100 11th Ave; New York; NY 10011; USA","marker-color": "0x8b3e"}, "geometry": { "type": "Point","coordinates": [-74.00782029999999, 40.7461585] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "2011","buyer": "John Axelrod Boston","address": "539 Tremont St; Boston; MA 02116; USA","marker-color": "0x8b3e"}, "geometry": { "type": "Point","coordinates": [-71.071407, 42.344691] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "2011","buyer": "MFA","address": "465 Huntington Ave; Boston; MA 02115; USA","marker-color": "0x8b3e"}, "geometry": { "type": "Point","coordinates": [-71.094048, 42.339381] } }
+]}

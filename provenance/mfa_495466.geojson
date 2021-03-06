@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1999","buyer": "Galerie Félix Marcilhac Paris","address": "8 Rue Bonaparte; 75006 Paris; France","marker-color": "0x78f6a"}, "geometry": { "type": "Point","coordinates": [2.3348754, 48.856993599999996] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "2005","buyer": "Joyce Wein New York","address": "Upper East Side; New York; NY 10011; USA","marker-color": "0x78f6a"}, "geometry": { "type": "Point","coordinates": [-73.95470313145441, 40.77725839959229] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "2007","buyer": "Michael Rosenfeld Gallery New York","address": "100 11th Ave; New York; NY 10011; USA","marker-color": "0x78f6a"}, "geometry": { "type": "Point","coordinates": [-74.00782029999999, 40.7461585] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "2007","buyer": "MFA Date January","address": "465 Huntington Ave; Boston; MA 02115; USA","marker-color": "0x78f6a"}, "geometry": { "type": "Point","coordinates": [-71.094048, 42.339381] } }
+]}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1955","buyer": "Sitio Conte Coclé Province Panama","address": "Coclé Province; Panama","marker-color": "0x16d4"}, "geometry": { "type": "Point","coordinates": [-80.4338524599153, 8.53064975935705] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1970","buyer": "Manuel Miranda Pinto San Salvador El","address": "San Salvador; El Salvador","marker-color": "0x16d4"}, "geometry": { "type": "Point","coordinates": [-89.2197892667165, 13.697747065753] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1970","buyer": "Paul Pasher New York","address": "New York; NY; USA","marker-color": "0x16d4"}, "geometry": { "type": "Point","coordinates": [-74.006948601335, 40.7081377924307] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "1971","buyer": "Edward H Merrin Gallery New York","address": "724 5th Ave; New York; NY 10019; USA","marker-color": "0x16d4"}, "geometry": { "type": "Point","coordinates": [-73.9746296, 40.76909296160456, -73.96118398090161] } },
+{"type": "Feature", "id": 4, "properties": {"index": "4","year": "1971","buyer": "MFA","address": "465 Huntington Ave; Boston; MA 02115; USA","marker-color": "0x16d4"}, "geometry": { "type": "Point","coordinates": [-71.094048, 42.339381] } }
+]}

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1990","buyer": "By American Decorative Arts Northampton Massachusetts January Chris Kennedy","address": "Northampton; MA; USA","marker-color": "0x7eedf"}, "geometry": { "type": "Point","coordinates": [-72.64120129999999, 42.3250896] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "2008","buyer": "John Axelrod Boston Massachusetts","address": "55 Fruit St; Boston; MA 02114; USA","marker-color": "0x7eedf"}, "geometry": { "type": "Point","coordinates": [-71.0688334, 42.363154200000004] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "2014","buyer": "MFA October","address": "465 Huntington Ave; Boston; MA 02115; USA","marker-color": "0x7eedf"}, "geometry": { "type": "Point","coordinates": [-71.094048, 42.339381] } }
+]}

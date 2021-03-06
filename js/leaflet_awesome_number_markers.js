@@ -16,7 +16,7 @@
       popupAnchor: [1, -32],
       className: 'awesome-number-marker',
       icon: 'home',
-      markerColor: 'blue',
+      markerColor: '#011f51',
       numberColor: 'white',
       number: ''
     },

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1928","buyer": "Alfred C Markley Rebecca Conard Pennsylvania","address": "Pennsylvania; USA","marker-color": "0x411b3"}, "geometry": { "type": "Point","coordinates": [-77.1945247, 41.2033216] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1965","buyer": "Lewis Foulke Shoemaker Lucretia McIlvain Lansdowne PA","address": "Lansdowne; PA 19050; USA","marker-color": "0x411b3"}, "geometry": { "type": "Point","coordinates": [-75.2718507, 39.9381682] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1994","buyer": "Edward Mary Lucretia Anne Shoemaker","address": "Pennsylvania; USA","marker-color": "0x411b3"}, "geometry": { "type": "Point","coordinates": [-77.1945247, 41.2033216] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "1995","buyer": "MFA","address": "465 Huntington Ave; Boston; MA 02115; USA","marker-color": "0x411b3"}, "geometry": { "type": "Point","coordinates": [-71.094048, 42.339381] } }
+]}
