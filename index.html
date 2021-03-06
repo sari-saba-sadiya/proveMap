@@ -205,6 +205,71 @@ fcddaf
   </head>
 
   <body>
+	<!------------------------ MODAL -------------------------->
+	
+	 <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-dialog modal-vertical-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+						<h4 class="modal-title" id="myModalLabel">Welcome to ProveMap</h4>
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    </div>
+                    <div class="modal-body">
+                        This projects map the provenance of items from different museums, each item is represented by a marker at the location of creation / discovery, press on an item to see it's jouney, pressing on a point in the journey further expands provenance data.  
+                    </div>
+                    <div class="modal-footer">
+                        <label ><input class="dont" type="checkbox" name="dismiss"> Don't show again</label><br />
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+	 <!-- Initiates Modal and Uses cookies for Dont Show Again Checkbox -->     
+		<script type="text/javascript">
+		 $(document).ready(function () {
+			$('#myModal').modal();
+		  
+		   //check cookies
+			function setCookie(){
+				var dis = document.cookie;
+				while(dis.charAt(0)==" ") dis = dis.substring(1);
+				if(dis.substring(8,13)== "false"){
+					$('#myModal').modal('hide');
+				}
+				console.log(dis.substring(8,13));
+			}
+			setCookie();    
+			 
+			 
+			  var $check = $("input.dont").click(function(){
+				if($("input.dont").is(":checked")){
+				document.cookie = "display=false";        
+				}else{
+				document.cookie = "display=true";        
+				}
+				  
+			  });
+		 });
+		</script>
+			   
+		<!-- Centers Modal Vertically -->      
+		<script type="text/javascript">
+			  function centerModal() {
+			$(this).css('display', 'block');
+			var $dialog = $(this).find(".modal-dialog");
+			var offset = ($(window).height() - $dialog.height()) / 2;
+			// Center modal vertically in window
+			$dialog.css("margin-top", offset);
+		}
+
+		$('.modal').on('show.bs.modal', centerModal);
+		$(window).on("resize", function () {
+			$('.modal:visible').each(centerModal);
+		});
+		</script>
+	<!------------------------ MODAL -------------------------->  
     <!-- header -->
     <header>
       <!-- Fixed navbar -->
@@ -300,11 +365,6 @@ fcddaf
         <div class="row mt-4 mx-auto d-block text-center">
           <img src="./assets/provemap.png" class="img-fluid mb-3" alt="Profile picture">
           <p class="lead">Mapping Provenance</p>
-          <!--
-          <p class="font-weight-light">Depertment of Engineering<br> <a
-href="https://www.cse.msu.edu/"> Computer Science </a><br> Department of Psychology <br> <a
-href="https://psychology.msu.edu/programs/cognition-and-cognitive-neuroscience/index.html" >Cognition & Cognitive Neuroscience</a></p>
-		-->
         </div>
         <hr>
         <div class="row mx-auto d-block">
@@ -324,14 +384,6 @@ href="https://psychology.msu.edu/programs/cognition-and-cognitive-neuroscience/i
       <!--- Sari Hello--->
       <div class="col flex-1">
       <section id="Academic" class="mt-5 h-100">
-		   <!---
-			<div id="map" class="row mt-5 mx-auto d-block text-center">
-				<div id="basemapslidercontainer">
-					<div id="basemapslider">
-					</div>
-				</div>
-			</div> 
-			-->
 		<div id="map-holder">
 			<div class="mycontainer myfill">
 				<div id="map">
