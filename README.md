@@ -9,4 +9,4 @@ https://sari-saba-sadiya.github.io/proveMap/index.html
 | --------------- | --------------- | --------------  | --------------- |
 | MFA             |   Web           | Boston MFA      | mfa_webscrapper |
 | [provenance-index-csv](https://github.com/thegetty/provenance-index-csv) | NA | Getty | NA |
-| Getty           | Web             | Getty LA        | getty_webscrapper |
+| [Getty](http://www.getty.edu/art/collection/objects/343301/unknown-maker-votive-statuette-of-a-male-youth-greek-lakonian-550-530-bc/)           | Web             | Getty LA        | getty_webscrapper |
