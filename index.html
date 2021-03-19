@@ -37,6 +37,7 @@ fcddaf
 		<script src="https://cdn.rawgit.com/ardhi/Leaflet.MousePosition/master/src/L.Control.MousePosition.js" type="text/javascript"></script>
 		<script src="./js/leaflet_awesome_number_markers.js"></script>
 		<script src="./js/greyscale.js"></script>
+		<script src="./js/rainbowvis.js"></script>
 	  <style type="text/css">
 		#basemapslidercontainer {
 		  position: absolute;
@@ -85,10 +86,31 @@ fcddaf
 			max-width:100%;
 			max-height:40%;
 		}
+		
+		.info {
+			padding: 6px 8px;
+			font: 14px/16px Arial, Helvetica, sans-serif;
+			background: white;
+			background: rgba(255,255,255,0.8);
+			box-shadow: 0 0 15px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+		.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+		}
+		.lflegend { line-height: 18px; color: #555;}
+		.lflegend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7;}
 	  </style>
 	 <!-- Add jQuery -->
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	  <script>
+		function getColor(valueStr) {
+		  //value from 0 to 1
+		  var value = (Number(valueStr)-1520)/(1939-1520)
+		  var hue = ((1 - value) * 120).toString(10);
+		  return ["hsl(", hue, ",100%,50%)"].join("");
+		}
 		$(document).ready(function () {
 			function onlyUnique(value, index, self) {
 			  return self.indexOf(value) === index;
@@ -105,7 +127,7 @@ fcddaf
 		  const myCustomColour = '#73aea8'
 
 		  const markerHtmlStyles = `
-			  background-color: ${myCustomColour};
+			  //background-color: ${myCustomColour};
 			  width: 1rem;
 			  height: 1rem;
 			  display: block;
@@ -116,6 +138,11 @@ fcddaf
 			  transform: rotate(45deg);
 			  border: 1px solid #FFFFFF`	
 
+		  var rainbow = new Rainbow(); 
+		  rainbow.setNumberRange(1, 1939-1520);
+		  rainbow.setSpectrum('#207793', '#f4723e');
+		  console.log(rainbow.colourAt(1930-1520))
+		  
 		  var map = L.map('map').setView([40, -90], 4);
 		  var markersLayer = new L.FeatureGroup();
 		  var itemMarkers = new L.FeatureGroup();
@@ -134,7 +161,7 @@ fcddaf
 						document.getElementById("feature_img").innerHTML = '<img class="img-fluid" src="'+feature.properties.image_url+'" width="250" onerror="this.style.display=\'none\'"/>';
 						document.getElementById("feature_info").innerHTML ='<font size="+2">'+feature.properties.name+'</font>'+'<br/><b>' +'Made: ' + '</b>' + feature.properties.yearmade +'<br/>' +'<b>By:</b> ' + feature.properties.by +'<br/>';
 						var featureClr = feature.properties.markercolor;
-						var featureGeo = 'mfa_'+feature.properties.index+'.geojson';
+						var featureGeo = feature.properties.index+'.geojson';
 						// You can make your ajax call declaration here
 						// console.log(featureGeo);
 						markersLayer.clearLayers();
@@ -164,7 +191,7 @@ fcddaf
 						  //iconAnchor: [0, 14],
 						  //labelAnchor: [-6, 0],
 						  //popupAnchor: [0, -36],
-						  html: `<span style="${markerHtmlStyles}" />`
+						  html: `<span style="background-color:#`+rainbow.colourAt(feature.properties.yearmade-1520)+`; ${markerHtmlStyles};" />`
 					});
 					var marker = L.marker(latlng,{icon: thisIcon});
 					for (var ii = 0; ii < feature.properties.tags.length; ii++) {
@@ -197,6 +224,26 @@ fcddaf
 		  markersID = itemMarkers._leaflet_id;
 		  //console.log(myL._layers);
 		  L.control.layers({'Basemap':baselayer}).addTo(map);
+		  
+		  /////
+		  var legend = L.control({position: 'bottomright'});
+		  legend.onAdd = function (map) {
+			var div = L.DomUtil.create('div', 'info lflegend'),
+				grades = [1939, 1900, 1800, 1700, 1600 , 1520],
+				labels = [];
+
+			// loop through our density intervals and generate a label with a colored square for each interval
+			for (var i = 0; i < grades.length; i++) {
+				div.innerHTML +=
+					'<i style="background:#' + rainbow.colourAt(grades[i]-1520) + '"></i> ' +
+					grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+			}
+
+			return div;
+		};
+
+		legend.addTo(map);
+
 		})
 	  </script>
 	  <!-- Favicon-->

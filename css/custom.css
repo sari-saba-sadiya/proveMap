@@ -60,6 +60,7 @@ a.bibclose {
 }
 div.bibinfo pre { clear:both; }
 
+
 /* Custom styles
 -------------------------------------------------- */
 .social-icons li {
@@ -213,7 +214,6 @@ button.navbutton {
 	color:white; 
 	outline-style:none;
 }
-
 
 /* timelinelist
 -----------------------------------------------------*/
