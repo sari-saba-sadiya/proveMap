@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1837","yearStr": "1837","buyer": "William Esdaile (L.2617), British, 1758 - 1837","address": "United Kingdom"}, "geometry": { "type": "Point","coordinates": [-3.435973, 55.378051] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1840","yearStr": "1840","buyer": " Estate of William Esdaile (L.2617), British, 1758 - 1837 [sold, Christie's, June 20, 1840, lot 648.]","address": "United Kingdom"}, "geometry": { "type": "Point","coordinates": [-3.419973, 55.358051] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1910","yearStr": "1910","buyer": "Baron Adalbert von Lanna, Czech, 1836 - 1909 (Prague, Czech Republic) [sold, Gutekunst, Stuttgart, May 6, 1910, lot 257.]","address": "Prague; Czechia"}, "geometry": { "type": "Point","coordinates": [14.4378005, 50.0755381] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "1910","yearStr": "1910","buyer": "Baron Adalbert von Lanna, Czech, 1836 - 1909 (Prague, Czech Republic) [sold, Gutekunst, Stuttgart, May 6, 1910, lot 257.]","address": "Stuttgart; Germany"}, "geometry": { "type": "Point","coordinates": [9.1829321, 48.7758459] } },
+{"type": "Feature", "id": 4, "properties": {"index": "4","year": "1946","yearStr": "Unknown","buyer": "Art Market (Paris, France)","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3522218999999995, 48.856614] } },
+{"type": "Feature", "id": 5, "properties": {"index": "5","year": "1982","yearStr": "1982","buyer": "Jacques Petit-Horry, French, sold to the J. Paul Getty Museum, 1982.","address": "France"}, "geometry": { "type": "Point","coordinates": [2.213749, 46.227638] } },
+{"type": "Feature", "id": 6, "properties": {"index": "6","year": "1982","yearStr": "1982","buyer": "Getty Museum collections","address": "The Getty Museum; LA; US"}, "geometry": { "type": "Point","coordinates": [-118.473923738619, 34.0789066655244] } }
+]}

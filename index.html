@@ -107,7 +107,7 @@ fcddaf
 	  <script>
 		function getColor(valueStr) {
 		  //value from 0 to 1
-		  var value = (Number(valueStr)-1520)/(1939-1520)
+		  var value = (Number(valueStr)-1520)/(2020-1520)
 		  var hue = ((1 - value) * 120).toString(10);
 		  return ["hsl(", hue, ",100%,50%)"].join("");
 		}
@@ -140,7 +140,7 @@ fcddaf
 			  border: 1px solid #FFFFFF`	
 
 		  var rainbow = new Rainbow(); 
-		  rainbow.setNumberRange(1, 1939-1520);
+		  rainbow.setNumberRange(1, 2020-1520);
 		  rainbow.setSpectrum('#207793', '#f4723e');
 		  //console.log(rainbow.colourAt(1930-1520));
 		  
@@ -196,6 +196,7 @@ fcddaf
 			      },
 			      //var tag_lst = [];
 				  pointToLayer: function(feature,latlng){
+					console.log(feature.properties.yearmade)
 					var thisIcon = L.divIcon({
 						//html: '<span class="dot" style="background-color:#'+feature.properties.markercolor+'"></span>',
 						//className: 'dummy'
@@ -241,7 +242,7 @@ fcddaf
 		  var legend = L.control({position: 'bottomright'});
 		  legend.onAdd = function (map) {
 			var div = L.DomUtil.create('div', 'info lflegend'),
-				grades = [1939, 1900, 1800, 1700, 1600 , 1520],
+				grades = [2020, 1900, 1800, 1700, 1600 , 1520],
 				labels = [];
 
 			// loop through our density intervals and generate a label with a colored square for each interval
