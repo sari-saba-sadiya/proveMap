@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1898","yearStr": "1898","buyer": "Comte Jacques de Bryas, French [sold, Galerie Georges Petit, Paris, April 4-6, 1898, lot 149.]","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3522219, 48.856614] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1908","yearStr": "Unknown","buyer": "de Jonge Collection (Paris)","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3542219, 48.870614] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1918","yearStr": "1918","buyer": "Mitchell Samuels, American, 1880 ? - 1959","address": "United States"}, "geometry": { "type": "Point","coordinates": [-95.712891, 37.09024] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "1983","yearStr": "1983","buyer": "Art Market (New York, New York), sold to the J. Paul Getty Museum, 1983.","address": "New York; NY; USA"}, "geometry": { "type": "Point","coordinates": [-74.0059728, 40.7127753] } },
+{"type": "Feature", "id": 4, "properties": {"index": "4","year": "1983","yearStr": "1983","buyer": "Getty Museum collections","address": "The Getty Museum; LA; US"}, "geometry": { "type": "Point","coordinates": [-118.473923738619, 34.0789066655244] } }
+]}

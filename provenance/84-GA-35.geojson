@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1854","yearStr": "1854","buyer": "Javier Goya y Bayeu, Spanish, 1784 - 1854 (Madrid, Spain), by inheritance from his father, Francisco de Goya, 1828; by inheritance to his son, Mariano Goya y Goicoechea, 1854.","address": "Spain"}, "geometry": { "type": "Point","coordinates": [-3.74922, 40.46366700000001] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1854","yearStr": "1854","buyer": "Javier Goya y Bayeu, Spanish, 1784 - 1854 (Madrid, Spain), by inheritance from his father, Francisco de Goya, 1828; by inheritance to his son, Mariano Goya y Goicoechea, 1854.","address": "Colombia"}, "geometry": { "type": "Point","coordinates": [-74.297333, 4.570868] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1905","yearStr": "Unknown","buyer": "Valentín Carderera, Spanish, 1796 - 1880 and/or Federico de Madrazo y Kuntz, Spanish, 1815 - 1894","address": "Spain"}, "geometry": { "type": "Point","coordinates": [-3.76522, 40.461667000000006] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "1957","yearStr": "1957","buyer": "Franz W. Koenigs (L.1023a), 1881 - 1941 (Haarlem, Netherlands) [sold, Sotheby's, London, November 20, 1957, lot 72 to Mme. Beres.]","address": "Haarlem; Netherlands"}, "geometry": { "type": "Point","coordinates": [4.6462194, 52.3873878] } },
+{"type": "Feature", "id": 4, "properties": {"index": "4","year": "1957","yearStr": "1957","buyer": "Franz W. Koenigs (L.1023a), 1881 - 1941 (Haarlem, Netherlands) [sold, Sotheby's, London, November 20, 1957, lot 72 to Mme. Beres.]","address": "London; UK"}, "geometry": { "type": "Point","coordinates": [-0.1277583, 51.5073509] } },
+{"type": "Feature", "id": 5, "properties": {"index": "5","year": "1970","yearStr": "Unknown","buyer": "Jean Davray (Paris, France)","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3522219, 48.856614] } },
+{"type": "Feature", "id": 6, "properties": {"index": "6","year": "1984","yearStr": "1984","buyer": "Private Collection (New Jersey, United States), sold to the J. Paul Getty Museum, 1984.","address": "United States"}, "geometry": { "type": "Point","coordinates": [-95.712891, 37.09024] } },
+{"type": "Feature", "id": 7, "properties": {"index": "7","year": "1984","yearStr": "1984","buyer": "Getty Museum collections","address": "The Getty Museum; LA; US"}, "geometry": { "type": "Point","coordinates": [-118.47392373861906, 34.07890666552444] } }
+]}

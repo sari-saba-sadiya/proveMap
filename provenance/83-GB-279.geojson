@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1982","yearStr": "1982","buyer": "Theodore Allen Heinrich, American, American, 1910 - 1981 [sold, Christie's, London, July 6, 1982, lot 134.]","address": "San Marino, California; United States"}, "geometry": { "type": "Point","coordinates": [-118.114196170467, 34.1247457412156] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1982","yearStr": "1982","buyer": "Theodore Allen Heinrich, American, American, 1910 - 1981 [sold, Christie's, London, July 6, 1982, lot 134.]","address": "London; UK"}, "geometry": { "type": "Point","coordinates": [-0.1037583, 51.5873509] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1983","yearStr": "1983","buyer": "P. & D. Colnaghi & Co., Ltd., London (L.2075), sold to the J. Paul Getty Museum, 1983.","address": "London; UK"}, "geometry": { "type": "Point","coordinates": [-0.1277583, 51.5073509] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "1983","yearStr": "1983","buyer": "Getty Museum collections","address": "The Getty Museum; LA; US"}, "geometry": { "type": "Point","coordinates": [-118.473923738619, 34.0789066655244] } }
+]}

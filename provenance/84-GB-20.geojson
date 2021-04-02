@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1752","yearStr": "1752","buyer": "François Boucher, French, 1703 - 1770, by gift to M. Denis, 1752.","address": "France"}, "geometry": { "type": "Point","coordinates": [2.213749, 46.227638] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1781","yearStr": "1781","buyer": "M. de Sireul (Paris, France) [sold, Boileau, Paris, December 3, 1781, lot 51.]","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3522219, 48.856614] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1781","yearStr": "1781","buyer": "M. de Sireul (Paris, France) [sold, Boileau, Paris, December 3, 1781, lot 51.]","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3622219, 48.852614] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "1909","yearStr": "1909","buyer": "Victorien Sardou (Paris, France) [sold, Galerie Georges Petit, Paris, April 27, 1909, lot 55.]","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3722219, 48.860614] } },
+{"type": "Feature", "id": 4, "properties": {"index": "4","year": "1909","yearStr": "1909","buyer": "Victorien Sardou (Paris, France) [sold, Galerie Georges Petit, Paris, April 27, 1909, lot 55.]","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3322219, 48.874614] } },
+{"type": "Feature", "id": 5, "properties": {"index": "5","year": "1909","yearStr": "1909","buyer": "Getty Museum collections","address": "The Getty Museum; LA; US"}, "geometry": { "type": "Point","coordinates": [-118.47392373861906, 34.07890666552444] } }
+]}

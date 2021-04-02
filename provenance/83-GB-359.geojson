@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1983","yearStr": "1983","buyer": "Private Dealer (Geneva, Switzerland), sold to the J. Paul Getty Museum, 1983.","address": "Switzerland"}, "geometry": { "type": "Point","coordinates": [8.227511999999999, 46.818188] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1983","yearStr": "1983","buyer": "Private Dealer (Geneva, Switzerland), sold to the J. Paul Getty Museum, 1983.","address": "United States"}, "geometry": { "type": "Point","coordinates": [-95.712891, 37.09024] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1983","yearStr": "1983","buyer": "Getty Museum collections","address": "The Getty Museum; LA; US"}, "geometry": { "type": "Point","coordinates": [-118.47392373861906, 34.07890666552444] } }
+]}

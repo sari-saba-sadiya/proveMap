@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1870","yearStr": "1870","buyer": "Pierre Defer, French, 1798 - 1879 (Paris, France), by descent to his son-in-law, Henri Dumensnil, 1870.","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3612219, 48.825614] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1900","yearStr": "1900","buyer": "Henri Dumesnil, 1823 - 1898 (Paris, France) [sold, Hôtel Drouot, May 10-12, 1900, lot 205.]","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3362219, 48.866614] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1937","yearStr": "1937","buyer": "Louis Deglatigny (Rouen, France) [sold, Galerie Jean Charpentier, May 28, 1937, lot 73.]","address": "Rouen; France"}, "geometry": { "type": "Point","coordinates": [1.099971, 49.443232] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "1963","yearStr": "1963","buyer": "Georges Wildenstein, French, 1892 - 1963, by inheritance to Daniel Wildenstein.","address": "France"}, "geometry": { "type": "Point","coordinates": [2.213749, 46.227638] } },
+{"type": "Feature", "id": 4, "properties": {"index": "4","year": "1983","yearStr": "1983","buyer": "Daniel Wildenstein, French, 1917 - 2001, sold to the J. Paul Getty Museum, 1983.","address": "France"}, "geometry": { "type": "Point","coordinates": [2.197749, 46.239638] } },
+{"type": "Feature", "id": 5, "properties": {"index": "5","year": "1983","yearStr": "1983","buyer": "Getty Museum collections","address": "The Getty Museum; LA; US"}, "geometry": { "type": "Point","coordinates": [-118.473923738619, 34.0789066655244] } }
+]}

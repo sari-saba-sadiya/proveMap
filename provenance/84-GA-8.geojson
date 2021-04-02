@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1842","yearStr": "1842","buyer": "Narcisse Révil, French, 1779 - about 1844 [sold, Bonnefons de Lavialle, Paris, March 19, 1842, lot 67.]","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3112219, 48.877614] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1913","yearStr": "Unknown","buyer": "Paul Mathey (L.2100b), French, 1844 - 1929 (Paris, France)","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3662219, 48.855614] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1984","yearStr": "1984","buyer": "Galerie de Bayser S.A. (Lausanne, Switzerland), sold to the J. Paul Getty Museum, 1984.","address": "Lausanne; Switzerland"}, "geometry": { "type": "Point","coordinates": [6.6322734, 46.5196535] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "1984","yearStr": "1984","buyer": "Getty Museum collections","address": "The Getty Museum; LA; US"}, "geometry": { "type": "Point","coordinates": [-118.473923738619, 34.0789066655244] } }
+]}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1754","yearStr": "1754","buyer": "Henri Tersmitten [sold, de Bary and Yver, Amsterdam, September 23, 1754, lot 434.]","address": "Amsterdam; Netherlands"}, "geometry": { "type": "Point","coordinates": [4.9041389, 52.3675734] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1830","yearStr": "Unknown","buyer": "T. Philipe (London, England)","address": "London; UK"}, "geometry": { "type": "Point","coordinates": [-0.1277583, 51.5073509] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1983","yearStr": "1983","buyer": "Private Collection (London, England) [sold, Christie's, London, April 12, 1983, lot 155, to the J. Paul Getty Museum.]","address": "London; UK"}, "geometry": { "type": "Point","coordinates": [-0.1157583, 51.5113509] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "1983","yearStr": "1983","buyer": "Getty Museum collections","address": "The Getty Museum; LA; US"}, "geometry": { "type": "Point","coordinates": [-118.473923738619, 34.0789066655244] } }
+]}

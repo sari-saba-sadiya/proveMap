@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1866","yearStr": "1866","buyer": "Dr. Henry Wellesley, British, 1794 - 1866","address": "United Kingdom"}, "geometry": { "type": "Point","coordinates": [-3.435973, 55.378051] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1883","yearStr": "1883","buyer": "Wellesley Collection [sold, Christie's London, June 15, 1883, lot 152.]","address": "London; UK"}, "geometry": { "type": "Point","coordinates": [-0.1277583, 51.5073509] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1925","yearStr": "Unknown","buyer": "Henry George Charles Lascelles, 6th Earl of Harewood, British, 1882 - 1947 and Mary Princess Royal and Countess of Harewood, British, 1897 - 1965","address": "United Kingdom"}, "geometry": { "type": "Point","coordinates": [-3.431973, 55.358051] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "1983","yearStr": "1983","buyer": "Private Collection (Westfield, New Jersey), sold to the J. Paul Getty Museum, 1983.","address": "Westfield; Porterville; CA 93257; USA"}, "geometry": { "type": "Point","coordinates": [-119.0445468, 36.09106310000001] } },
+{"type": "Feature", "id": 4, "properties": {"index": "4","year": "1983","yearStr": "1983","buyer": "Getty Museum collections","address": "The Getty Museum; LA; US"}, "geometry": { "type": "Point","coordinates": [-118.47392373861906, 34.07890666552444] } }
+]}

@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1898","yearStr": "1898","buyer": "Comte Jacques de Bryas, French (Paris, France) [sold, Galeries Georges Petit, Paris, April 4-6, 1989, lot 58.]","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3141219, 48.833614] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1898","yearStr": "1898","buyer": "Comte Jacques de Bryas, French (Paris, France) [sold, Galeries Georges Petit, Paris, April 4-6, 1989, lot 58.]","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3322219, 48.842614] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1911","yearStr": "1911","buyer": "Pierre Decourcelle, French, 1856 - 1926 [sold, Galeries Georges Petit, Paris, May 29-30, 1911, lot 87.]","address": "Paris; France"}, "geometry": { "type": "Point","coordinates": [2.3502219, 48.840614] } },
+{"type": "Feature", "id": 3, "properties": {"index": "3","year": "1930","yearStr": "Unknown","buyer": "Baron Edmond James de Rothschild, Austrian, 1845 - 1934","address": "Austria"}, "geometry": { "type": "Point","coordinates": [14.550072, 47.516231] } },
+{"type": "Feature", "id": 4, "properties": {"index": "4","year": "1976","yearStr": "Unknown","buyer": "Private Collection (France)","address": "France"}, "geometry": { "type": "Point","coordinates": [2.213749, 46.227638] } },
+{"type": "Feature", "id": 5, "properties": {"index": "5","year": "1982","yearStr": "1982","buyer": "Wildenstein & Co. (New York), sold to the J. Paul Getty Museum, 1982.","address": "New York; NY; USA"}, "geometry": { "type": "Point","coordinates": [-74.0059728, 40.7127753] } },
+{"type": "Feature", "id": 6, "properties": {"index": "6","year": "1982","yearStr": "1982","buyer": "Getty Museum collections","address": "The Getty Museum; LA; US"}, "geometry": { "type": "Point","coordinates": [-118.47392373861906, 34.07890666552444] } }
+]}

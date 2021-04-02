@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection", 
+"features": [
+{"type": "Feature", "id": 0, "properties": {"index": "0","year": "1981","yearStr": "1981","buyer": "Private Collection (Amsterdam, Netherlands) [sold, Christie's, November 16, 1981, lot 32.]","address": "Amsterdam; Netherlands"}, "geometry": { "type": "Point","coordinates": [4.9141389, 52.3575734] } },
+{"type": "Feature", "id": 1, "properties": {"index": "1","year": "1983","yearStr": "1983","buyer": "Art Market (Boston, Massachusetts), sold to the J. Paul Getty Museum, 1983.","address": "Boston PE21; UK"}, "geometry": { "type": "Point","coordinates": [-0.026577, 52.97893999999999] } },
+{"type": "Feature", "id": 2, "properties": {"index": "2","year": "1983","yearStr": "1983","buyer": "Getty Museum collections","address": "The Getty Museum; LA; US"}, "geometry": { "type": "Point","coordinates": [-118.47392373861906, 34.07890666552444] } }
+]}
